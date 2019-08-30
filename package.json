@@ -1,0 +1,47 @@
+{
+  "name": "wh",
+  "version": "1.0.48",
+  "description": "Webhook is the easiest way to build a custom CMS for your next website.",
+  "keywords": [
+    "webhook",
+    "cms",
+    "static generator",
+    "static site generator"
+  ],
+  "main": "index.js",
+  "bin": "./bin/wh",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/webhook/webhook.git"
+  },
+  "author": {
+    "name": "Ian Kelly"
+  },
+  "engines": {
+    "node": ">= 0.10.24"
+  },
+  "license": "MIT",
+  "preferGlobal": "true",
+  "bugs": {
+    "url": "https://github.com/webhook/webhook/issues",
+    "email": "support@webhook.com"
+  },
+  "homepage": "http://www.webhook.com/",
+  "readmeFile": "README.md",
+  "dependencies": {
+    "commander": "~2.1.0",
+    "colors": "~0.6.2",
+    "async": "~0.2.9",
+    "wrench": "~1.5.4",
+    "win-spawn": "~2.0.0",
+    "request": "~2.31.0",
+    "adm-zip": "~0.4.3",
+    "lodash": "~2.4.1",
+    "github": "~0.1.12",
+    "firebase": "1.0.2",
+    "restler": "~3.1.0",
+    "mime": "~1.2.11",
+    "archiver": "~0.6.1",
+    "inquirer": "~0.5.1"
+  }
+}
